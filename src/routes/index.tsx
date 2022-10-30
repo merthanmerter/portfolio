@@ -123,7 +123,7 @@ export default component$(() => {
 							either client’s or my own products is what makes me wake up everyday!
 						</p>
 						<div class='mt-6 print:hidden text-center lg:text-left'>
-							<Link href='case-studies'>
+							<Link href='#'>
 								<Button color='secondary'>Case Studies</Button>
 							</Link>
 						</div>
@@ -168,7 +168,7 @@ export default component$(() => {
 						/>
 					</div>
 					<div class='w-full text-center lg:text-right mt-9 print:hidden'>
-						<Link href='projects'>
+						<Link href='#'>
 							<Button color='primary'>More Projects</Button>
 						</Link>
 					</div>

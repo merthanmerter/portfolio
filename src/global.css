@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		@apply bg-zinc-900;
+	}
+
+	body {
+		@apply flex min-h-screen flex-col justify-between antialiased overflow-y-scroll bg-zinc-900 text-primary antialiased print:text-[9pt] print:p-8;
+	}
+
+	main {
+		@apply mb-auto flex-1;
+	}
+
+	.heading {
+		@apply font-bold uppercase;
+	}
+	.grecaptcha-badge {
+		@apply opacity-0 invisible hidden;
+	}
+	.ionic {
+		@apply inline-block align-middle w-6 h-6 m-0 p-0 text-zinc-300 visible;
+	}
+	a .ionic {
+		@apply hover:text-sky-800 transition-colors;
+	}
+}
